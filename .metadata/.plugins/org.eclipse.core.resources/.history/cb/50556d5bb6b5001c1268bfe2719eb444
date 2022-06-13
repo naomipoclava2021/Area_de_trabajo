@@ -1,0 +1,25 @@
+package Clase6;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Ejercicio4 {
+	 public static void main (String[] args)   
+	 { Scanner num = new Scanner(System.in);  //Inicializa el Scanner
+	   ArrayList <Integer> palabras = new ArrayList <Integer>();  //Vector con un indice indefinido
+	   System.out.println (palabras);
+	   palabras.add(1); //Agrego al final del array
+	   System.out.println (palabras);
+	   palabras.add(0,2); //Agrego en el indice del array y desplazo a la derecha
+	   System.out.println (palabras);
+	   System.out.println (palabras.get(0)); //Imprimo el lugar del vector que deseo
+	   palabras.remove(3);   //Remuevo el valor escrito
+	   System.out.println (palabras);
+	   palabras.set (0, 4);  //Reemplazo un valor por el deseado
+	   System.out.println (palabras);
+	   palabras.clear();   //Limpio el vector
+	   System.out.println (palabras); 
+	   
+	 }
+		 
+	 
+
+}
