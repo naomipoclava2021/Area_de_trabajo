@@ -1,0 +1,16 @@
+package Clase6;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Ejercicio4 {
+	 public static void main (String[] args)   
+	 { Scanner num = new Scanner(System.in);  //Inicializa el Scanner
+	 int i=0, b=0;
+	   ArrayList <Integer> vector = new ArrayList <Integer>();  //Vector con un indice indefinido
+	 b = num.nextInt ();
+	 vector.add (b);
+	  System.out.print(b);
+	 }
+		 
+	 
+
+}

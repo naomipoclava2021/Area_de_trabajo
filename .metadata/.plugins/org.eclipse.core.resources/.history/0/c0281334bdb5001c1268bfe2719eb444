@@ -1,0 +1,25 @@
+package Clase6;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Ejercicio4 {
+	 public static void main (String[] args)   
+	 { Scanner num = new Scanner(System.in);  //Inicializa el Scanner
+	 int i=0, b=0,aux=0;
+	  ArrayList <Integer> vector = new ArrayList <Integer>();  //Vector con un indice indefinido
+	 while (aux==0)
+	 { 
+	  System.out.print("Ingrese numero ");
+	  if (!num.hasNextInt())
+	  {aux=1;
+	  break;}
+	  else
+	  {b = num.nextInt ();
+	 vector.add (b);}
+	 
+	 }
+	   System.out.println (vector);
+	 
+	 } 
+	 
+
+}
